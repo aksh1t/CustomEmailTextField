@@ -2,6 +2,8 @@
 
 Custom ````UITextField```` which gives options for easily entering E-Mail ids. Automatically responds to orientation change.
 
+<p align="center"><img src="https://raw.githubusercontent.com/aksh1t/TGEmailTextField/master/Screenshot/screenshot.png"/></p>
+
 ## Usage
 
 - Add the ````TGEmailTextField.h```` and ````TGEmailTextField.m```` files to your project. 
