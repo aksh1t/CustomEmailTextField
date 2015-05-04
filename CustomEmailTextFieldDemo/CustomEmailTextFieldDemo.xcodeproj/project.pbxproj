@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84F1B81C1AF76E6B00024621 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F1B81B1AF76E6B00024621 /* main.m */; };
+		84F1B81F1AF76E6C00024621 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F1B81E1AF76E6C00024621 /* AppDelegate.m */; };
+		84F1B8221AF76E6C00024621 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F1B8211AF76E6C00024621 /* ViewController.m */; };
+		84F1B8251AF76E6C00024621 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84F1B8231AF76E6C00024621 /* Main.storyboard */; };
+		84F1B8271AF76E6C00024621 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84F1B8261AF76E6C00024621 /* Images.xcassets */; };
+		84F1B82A1AF76E6C00024621 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84F1B8281AF76E6C00024621 /* LaunchScreen.xib */; };
+		84F1B8431AF7706900024621 /* CustomEmailTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F1B8421AF7706900024621 /* CustomEmailTextField.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		84F1B8161AF76E6B00024621 /* CustomEmailTextFieldDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomEmailTextFieldDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84F1B81A1AF76E6B00024621 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84F1B81B1AF76E6B00024621 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84F1B81D1AF76E6B00024621 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		84F1B81E1AF76E6C00024621 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84F1B8201AF76E6C00024621 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		84F1B8211AF76E6C00024621 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		84F1B8241AF76E6C00024621 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84F1B8261AF76E6C00024621 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		84F1B8291AF76E6C00024621 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		84F1B8411AF7706900024621 /* CustomEmailTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomEmailTextField.h; path = ../../Classes/CustomEmailTextField.h; sourceTree = "<group>"; };
+		84F1B8421AF7706900024621 /* CustomEmailTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomEmailTextField.m; path = ../../Classes/CustomEmailTextField.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84F1B8131AF76E6B00024621 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84F1B80D1AF76E6B00024621 = {
+			isa = PBXGroup;
+			children = (
+				84F1B8181AF76E6B00024621 /* CustomEmailTextFieldDemo */,
+				84F1B8171AF76E6B00024621 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84F1B8171AF76E6B00024621 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84F1B8161AF76E6B00024621 /* CustomEmailTextFieldDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84F1B8181AF76E6B00024621 /* CustomEmailTextFieldDemo */ = {
+			isa = PBXGroup;
+			children = (
+				84F1B8411AF7706900024621 /* CustomEmailTextField.h */,
+				84F1B8421AF7706900024621 /* CustomEmailTextField.m */,
+				84F1B81D1AF76E6B00024621 /* AppDelegate.h */,
+				84F1B81E1AF76E6C00024621 /* AppDelegate.m */,
+				84F1B8201AF76E6C00024621 /* ViewController.h */,
+				84F1B8211AF76E6C00024621 /* ViewController.m */,
+				84F1B8231AF76E6C00024621 /* Main.storyboard */,
+				84F1B8261AF76E6C00024621 /* Images.xcassets */,
+				84F1B8281AF76E6C00024621 /* LaunchScreen.xib */,
+				84F1B8191AF76E6B00024621 /* Supporting Files */,
+			);
+			path = CustomEmailTextFieldDemo;
+			sourceTree = "<group>";
+		};
+		84F1B8191AF76E6B00024621 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84F1B81A1AF76E6B00024621 /* Info.plist */,
+				84F1B81B1AF76E6B00024621 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84F1B8151AF76E6B00024621 /* CustomEmailTextFieldDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84F1B8391AF76E6C00024621 /* Build configuration list for PBXNativeTarget "CustomEmailTextFieldDemo" */;
+			buildPhases = (
+				84F1B8121AF76E6B00024621 /* Sources */,
+				84F1B8131AF76E6B00024621 /* Frameworks */,
+				84F1B8141AF76E6B00024621 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomEmailTextFieldDemo;
+			productName = CustomEmailTextFieldDemo;
+			productReference = 84F1B8161AF76E6B00024621 /* CustomEmailTextFieldDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84F1B80E1AF76E6B00024621 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = aksh1t;
+				TargetAttributes = {
+					84F1B8151AF76E6B00024621 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+				};
+			};
+			buildConfigurationList = 84F1B8111AF76E6B00024621 /* Build configuration list for PBXProject "CustomEmailTextFieldDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84F1B80D1AF76E6B00024621;
+			productRefGroup = 84F1B8171AF76E6B00024621 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84F1B8151AF76E6B00024621 /* CustomEmailTextFieldDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84F1B8141AF76E6B00024621 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84F1B8251AF76E6C00024621 /* Main.storyboard in Resources */,
+				84F1B82A1AF76E6C00024621 /* LaunchScreen.xib in Resources */,
+				84F1B8271AF76E6C00024621 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84F1B8121AF76E6B00024621 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84F1B8221AF76E6C00024621 /* ViewController.m in Sources */,
+				84F1B8431AF7706900024621 /* CustomEmailTextField.m in Sources */,
+				84F1B81F1AF76E6C00024621 /* AppDelegate.m in Sources */,
+				84F1B81C1AF76E6B00024621 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		84F1B8231AF76E6C00024621 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84F1B8241AF76E6C00024621 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84F1B8281AF76E6C00024621 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84F1B8291AF76E6C00024621 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84F1B8371AF76E6C00024621 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		84F1B8381AF76E6C00024621 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84F1B83A1AF76E6C00024621 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CustomEmailTextFieldDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		84F1B83B1AF76E6C00024621 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CustomEmailTextFieldDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84F1B8111AF76E6B00024621 /* Build configuration list for PBXProject "CustomEmailTextFieldDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84F1B8371AF76E6C00024621 /* Debug */,
+				84F1B8381AF76E6C00024621 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84F1B8391AF76E6C00024621 /* Build configuration list for PBXNativeTarget "CustomEmailTextFieldDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84F1B83A1AF76E6C00024621 /* Debug */,
+				84F1B83B1AF76E6C00024621 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84F1B80E1AF76E6B00024621 /* Project object */;
+}

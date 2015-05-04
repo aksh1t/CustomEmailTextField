@@ -17,25 +17,25 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="l4y-Fo-9ty" customClass="TGEmailTextField">
-                                <rect key="frame" x="16" y="120" width="568" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TGEmailTextField" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kU0-EV-YyW">
-                                <rect key="frame" x="234" y="91" width="133" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CustomEmailTextField" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bIb-WN-zv0">
+                                <rect key="frame" x="215" y="82" width="171" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ZXz-gk-yNv" customClass="CustomEmailTextField">
+                                <rect key="frame" x="16" y="111" width="568" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="l4y-Fo-9ty" firstAttribute="centerX" secondItem="kU0-EV-YyW" secondAttribute="centerX" id="6qU-Gz-dW1"/>
-                            <constraint firstItem="l4y-Fo-9ty" firstAttribute="top" secondItem="kU0-EV-YyW" secondAttribute="bottom" constant="8" symbolic="YES" id="Omg-H1-acf"/>
-                            <constraint firstItem="kU0-EV-YyW" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="71" id="c2O-2H-HYH"/>
-                            <constraint firstItem="l4y-Fo-9ty" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="dmV-qE-E4l"/>
-                            <constraint firstItem="l4y-Fo-9ty" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="uMk-3w-Fq8"/>
+                            <constraint firstItem="ZXz-gk-yNv" firstAttribute="top" secondItem="bIb-WN-zv0" secondAttribute="bottom" constant="8" symbolic="YES" id="38Y-2E-UCC"/>
+                            <constraint firstItem="ZXz-gk-yNv" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="NfL-au-AT5"/>
+                            <constraint firstItem="bIb-WN-zv0" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="62" id="p1c-EY-KNK"/>
+                            <constraint firstItem="bIb-WN-zv0" firstAttribute="centerX" secondItem="ZXz-gk-yNv" secondAttribute="centerX" id="pBQ-ux-Tof"/>
+                            <constraint firstItem="ZXz-gk-yNv" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="swV-f8-owp"/>
                         </constraints>
                     </view>
                 </viewController>

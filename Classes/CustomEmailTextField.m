@@ -25,9 +25,9 @@
  OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-#import "TGEmailTextField.h"
+#import "CustomEmailTextField.h"
 
-@implementation TGKeyboardButton{
+@implementation CustomKeyboardButton{
     BOOL touched;
 }
 
@@ -81,7 +81,7 @@
 
 @end
 
-@implementation TGEmailTextField
+@implementation CustomEmailTextField
 
 -(instancetype)init{
     self = [super init];
@@ -128,7 +128,7 @@
                                         views:NSDictionaryOfVariableBindings(scrollView)]];
     
     for (NSString *field in fields) {
-        TGKeyboardButton *button = [TGKeyboardButton new];
+        CustomKeyboardButton *button = [CustomKeyboardButton new];
         [button setTitle:field forState:UIControlStateNormal];
         [button sizeToFit];
         [button setCenter:inputAccessoryView.center];

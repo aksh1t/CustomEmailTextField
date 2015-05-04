@@ -27,13 +27,13 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TGEmailTextField : UITextField{
+@interface CustomEmailTextField : UITextField{
     UIView *inputAccessoryView;
     UIScrollView *scrollView;
 }
 
 @end
 
-@interface TGKeyboardButton : UIButton
+@interface CustomKeyboardButton : UIButton
 
 @end
